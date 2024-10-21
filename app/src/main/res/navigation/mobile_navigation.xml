@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_Numeros"
+        android:name="com.example.teste1.ui.Numeros.NumerosFragment"
+        android:label="@string/menu_Números"
+        tools:layout="@layout/fragment_numeros" />
+
+    <fragment
+        android:id="@+id/nav_Saudações"
+        android:name="com.example.teste1.ui.Saudações.SaudacoesFragment"
+        android:label="@string/menu_Saudações"
+        tools:layout="@layout/fragment_saudacoes" />
+
+    <fragment
+        android:id="@+id/nav_Alfabeto"
+        android:name="com.example.teste1.ui.Alfabeto.AlfabetoFragment"
+        android:label="@string/menu_Alfabeto"
+        tools:layout="@layout/fragment_alfabeto" />
+
+    <fragment
+        android:id="@+id/nav_Cores"
+        android:name="com.example.teste1.ui.Cores.CoresFragment"
+        android:label="@string/menu_Cores"
+        tools:layout="@layout/fragment_cores" />
+
+    <fragment
+        android:id="@+id/nav_Animais"
+        android:name="com.example.teste1.ui.Animais.AnimaisFragment"
+        android:label="@string/menu_Animais"
+        tools:layout="@layout/fragment_animais" />
+
+    <fragment
+        android:id="@+id/nav_Comidas"
+        android:name="com.example.teste1.ui.Comidas.ComidasFragment"
+        android:label="@string/menu_Comidas"
+        tools:layout="@layout/fragment_comidas" />
+
+
+    <fragment
+        android:id="@+id/nav_DiasDaSemana"
+        android:name="com.example.teste1.ui.Dias_da_semana.Dias_da_semanaFragment"
+        android:label="@string/menu_DiasDaSemana"
+        tools:layout="@layout/fragment_dias_da_semana" />
+
+    <fragment
+        android:id="@+id/nav_PartesDoCorpo"
+        android:name="com.example.teste1.ui.Partes_do_corpo.Partes_do_corpoFragment"
+        android:label="@string/menu_PartesDoCorpo"
+        tools:layout="@layout/fragment_partes_do_corpo" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.teste1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>

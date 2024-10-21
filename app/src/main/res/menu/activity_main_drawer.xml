@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_Alfabeto"
+            android:icon="@drawable/numeros"
+            android:title="Alfabeto" />
+
+        <item
+            android:id="@+id/nav_Numeros"
+            android:icon="@android:drawable/stat_sys_download"
+            android:title="Números" />
+
+        <item
+            android:id="@+id/nav_Cores"
+            android:icon="@drawable/cores"
+            android:title="Cores" />
+
+        <item
+            android:id="@+id/nav_Saudações"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="Saudações" />
+
+
+        <item
+            android:id="@+id/nav_Animais"
+            android:icon="@drawable/panda"
+            android:title="Animais" />
+
+        <item
+            android:id="@+id/nav_Comidas"
+            android:icon="@drawable/lugares"
+            android:title="Lugares" />
+
+        <item
+            android:id="@+id/nav_DiasDaSemana"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Dias Da Semana" />
+
+
+        <item
+            android:id="@+id/nav_PartesDoCorpo"
+            android:icon="@drawable/corpo"
+            android:title="Partes Do Corpo" />
+
+
+    </group>
+</menu>

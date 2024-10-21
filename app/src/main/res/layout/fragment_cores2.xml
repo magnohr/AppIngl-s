@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Cores.Cores2Fragment">
+
+    <ImageView
+        android:id="@+id/branco"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/branco"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/preto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="White"
+        app:layout_constraintBottom_toTopOf="@+id/rosa"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branco" />
+
+    <ImageView
+        android:id="@+id/preto"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/preto"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/branco"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="Black"
+        app:layout_constraintBottom_toTopOf="@+id/roxo"
+        app:layout_constraintStart_toStartOf="@+id/roxo"
+        app:layout_constraintTop_toBottomOf="@+id/preto" />
+
+    <ImageView
+        android:id="@+id/rosa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="251dp"
+        android:src="@drawable/rosa"
+        app:layout_constraintBottom_toBottomOf="@+id/cinza"
+        app:layout_constraintEnd_toStartOf="@+id/roxo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="Pink"
+        app:layout_constraintBottom_toTopOf="@+id/cinza"
+        app:layout_constraintEnd_toStartOf="@+id/cinza"
+        app:layout_constraintTop_toBottomOf="@+id/rosa" />
+
+    <ImageView
+        android:id="@+id/roxo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/roxo"
+        app:layout_constraintBottom_toBottomOf="@+id/rosa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rosa"
+        app:layout_constraintTop_toTopOf="@+id/rosa"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:text="Purple"
+        app:layout_constraintBottom_toTopOf="@+id/cinza"
+        app:layout_constraintStart_toEndOf="@+id/cinza"
+        app:layout_constraintTop_toBottomOf="@+id/roxo" />
+
+    <ImageView
+        android:id="@+id/cinza"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="77dp"
+        android:src="@drawable/cinza"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gray "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cinza" />
+</androidx.constraintlayout.widget.ConstraintLayout>

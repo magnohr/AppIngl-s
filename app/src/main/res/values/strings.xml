@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">teste1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_Números">Numeros</string>
+    <string name="menu_Saudações">Saudações</string>
+    <string name="menu_Alfabeto">Alfabeto</string>
+    <string name="menu_Cores">Cores</string>
+    <string name="menu_Animais">Animais</string>
+    <string name="menu_Comidas">Comidas</string>
+    <string name="menu_DiasDaSemana">DiasDaSemana</string>
+    <string name="menu_PartesDoCorpo">PartesDoCorpo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_description_abelha">abellha</string>
+    <string name="descricao_abelha" />
+</resources>

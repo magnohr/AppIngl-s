@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Animais.Animais1Fragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9026764" />
+
+    <ImageView
+        android:id="@+id/cachorro"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="46dp"
+        android:src="@drawable/dog"
+        app:layout_constraintBottom_toTopOf="@+id/camelo"
+        app:layout_constraintEnd_toStartOf="@+id/coruja"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <ImageView
+        android:id="@+id/coruja"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="46dp"
+        android:src="@drawable/coruja"
+        app:layout_constraintBottom_toTopOf="@+id/gato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cachorro"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/camelo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="41dp"
+        android:src="@drawable/camelo"
+        app:layout_constraintBottom_toTopOf="@+id/girafa"
+        app:layout_constraintEnd_toStartOf="@+id/gato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cachorro" />
+
+    <ImageView
+        android:id="@+id/gato"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="41dp"
+        android:src="@drawable/gato"
+        app:layout_constraintBottom_toTopOf="@+id/tucano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/camelo"
+        app:layout_constraintTop_toBottomOf="@+id/coruja" />
+
+    <ImageView
+        android:id="@+id/girafa"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/girafa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tucano"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camelo" />
+
+    <ImageView
+        android:id="@+id/tucano"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/tucano"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/girafa"
+        app:layout_constraintTop_toBottomOf="@+id/gato" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
